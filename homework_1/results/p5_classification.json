@@ -1,0 +1,24 @@
+{
+  "sklearn logistic (baseline)": {
+    "test_acc": 0.9824561403508771
+  },
+  "JAX logistic + SGD": {
+    "test_acc": 0.9824561403508771,
+    "train_acc": 0.9868131868131869,
+    "final_train_bce": 0.0732043981552124,
+    "test_bce": 0.09479460120201111
+  },
+  "JAX probit + SGD": {
+    "test_acc": 0.9736842105263158,
+    "train_acc": 0.9846153846153847,
+    "final_train_bce": 0.058873243629932404,
+    "test_bce": 0.0838693305850029
+  },
+  "_config": {
+    "lr": 0.01,
+    "epochs": 200,
+    "batch_size": 32,
+    "n_train": 455,
+    "n_test": 114
+  }
+}
