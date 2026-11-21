@@ -1,0 +1,70 @@
+{
+  "knn": {
+    "n_param_sets": 600,
+    "n_val": 489,
+    "best_params": {
+      "n_neighbors": 7,
+      "weights": "distance",
+      "metric": "manhattan",
+      "scale": true
+    },
+    "best_val_mse": 0.3616649227474579,
+    "test_mse_of_selected": 0.4089944280525509,
+    "train_mse_of_selected": 0.0,
+    "oracle_best_test_mse": 0.4043740501289398,
+    "rank_of_selected_on_test": 31,
+    "corr_val_test": 0.98296218712205,
+    "spearman_val_test": 0.9781908802287029,
+    "mean_val_minus_test": -0.03906363808405877,
+    "mean_test_over_val_ratio": 1.0809906945858612,
+    "resampling": {
+      "mean_min_val_mse": 0.3834777761905492,
+      "mean_test_mse_of_selected": 0.3998541271795243,
+      "mean_optimism": 0.016376350988975177,
+      "sd_optimism": 0.045469528656255476,
+      "frac_val_below_test": 0.641,
+      "mean_regret_vs_oracle": 0.010718631923439621,
+      "fixed_setting_mean_gap": 0.0006823824443568901,
+      "n_resample": 2000
+    }
+  },
+  "rf": {
+    "n_param_sets": 600,
+    "n_val": 489,
+    "best_params": {
+      "n_estimators": 150,
+      "max_depth": 24.0,
+      "max_features": 0.4,
+      "min_samples_leaf": 1,
+      "bootstrap": false
+    },
+    "best_val_mse": 0.3220460122842856,
+    "test_mse_of_selected": 0.3835270221731554,
+    "train_mse_of_selected": 3.511883163263389e-05,
+    "oracle_best_test_mse": 0.3773049269452939,
+    "rank_of_selected_on_test": 7,
+    "corr_val_test": 0.9897574770694184,
+    "spearman_val_test": 0.988442062631991,
+    "mean_val_minus_test": -0.08076201005518463,
+    "mean_test_over_val_ratio": 1.1967375109391112,
+    "resampling": {
+      "mean_min_val_mse": 0.35593187527757425,
+      "mean_test_mse_of_selected": 0.3654426514818451,
+      "mean_optimism": 0.009510776204270849,
+      "sd_optimism": 0.043454278658179024,
+      "frac_val_below_test": 0.5835,
+      "mean_regret_vs_oracle": 0.006408156830912888,
+      "fixed_setting_mean_gap": 0.0011271541095764065,
+      "n_resample": 2000
+    }
+  },
+  "baseline_mean": {
+    "val_mse": 0.7815826853558133,
+    "test_mse": 0.8271805595221023
+  },
+  "n": [
+    3428,
+    489,
+    981
+  ]
+}
